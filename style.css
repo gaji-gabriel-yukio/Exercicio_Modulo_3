@@ -1,0 +1,14 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.botaoinvio {
+    background-color: purple;
+    color: greenyellow;
+}
+
+.botaoapagar {
+    background-color: purple;
+    color: red;
+}

@@ -4,19 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-    <h1>Formulario de Login</h1>
+    <h1>Formulário de Login</h1>
 
     <form>
         <label for="user">Usuário: </label>
         <input id="user" type="text">
         <br/>
-        <label for="senha">Senha: </label>
+        <label style="color: red;" for="senha">Senha: </label>
         <input id="senha" type="password">
         <br>
-        <button type="submit">Cadastrar</button>
+        <button class="botaoinvio" type="submit">Cadastrar</button>
+        <button class="botaoapagar" type="reset">Apagar</button>
     </form>
 
 </body>
